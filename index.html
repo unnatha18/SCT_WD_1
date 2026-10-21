@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo">Landing<span>Page</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div>
+            <p class="tag">WELCOME TO OUR WEBSITE</p>
+            <h1>Build Your <span>Digital Future</span></h1>
+            <p>Create beautiful, responsive and interactive websites.</p>
+            <a href="#about" class="btn">Explore More</a>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <p>We create modern and responsive web experiences
+           using HTML, CSS and JavaScript.</p>
+    </section>
+
+    <section id="services" class="content alternate">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card">Web Design</div>
+            <div class="service-card">Development</div>
+            <div class="service-card">Responsive Layouts</div>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>Thank you for visiting our landing page!</p>
+        <a href="#home" class="btn">Back to Home</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Landing Page | Created with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
